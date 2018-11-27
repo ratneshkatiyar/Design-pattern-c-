@@ -61,7 +61,8 @@ int main()
 	sam.addNumber(13);	
 	sorting *s = new mergesort;
 	sam.setStrategy(s);
-	sam.sortvalues();	
+	sam.sortvalues();
+	delete(s);
 	
 	return 0;
 }
